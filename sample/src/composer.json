@@ -1,0 +1,14 @@
+{
+    "name": "baclv/sample",
+    "description": "this is first package",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "baclv",
+            "email": "baclv@maxgroup.vn"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
