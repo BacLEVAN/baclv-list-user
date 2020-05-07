@@ -9,18 +9,6 @@
             "email": "baclv@maxgroup.vn"
         }
     ],
-	"autoload": {
-        "psr-4": {
-            "BacLV\\Simple\\": "vendor/baclv-admin/sample/src"
-        }
-    },
     "minimum-stability": "dev",
-	"extra": {
-        "laravel": {
-            "providers": [
-				"BacLV\\Simple\\SimpleServiceProvider"
-            ]
-        }
-    },
     "require": {}
 }
