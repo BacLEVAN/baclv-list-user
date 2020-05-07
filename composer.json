@@ -9,6 +9,11 @@
             "email": "baclv@maxgroup.vn"
         }
     ],
+	"autoload": {
+        "psr-4": {
+            "BacLV\\Simple\\": "vendor/baclv/sample/src"
+        },
+    },
     "minimum-stability": "dev",
     "require": {}
 }
