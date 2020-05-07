@@ -15,6 +15,6 @@ class UsersController extends Controller
     public function index()
     {
         $users = User::all();
-        return view('simple::admin')->with('users', $users);
+        return view('user::admin')->with('users', $users);
     }
 }
