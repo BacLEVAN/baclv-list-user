@@ -1,12 +1,12 @@
 <?php
 
 
-namespace BacLV\Simple;
+namespace BacLV\Sample;
 
 use App\Http\Controllers\Controller;
 use App\User;
 
-class SimpleController extends Controller
+class UsersController extends Controller
 {
     public function __construct() {
         // $this->middleware('auth');

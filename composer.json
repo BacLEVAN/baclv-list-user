@@ -1,6 +1,6 @@
 {
-    "name": "baclv-admin/sample",
-    "description": "this is first package admin for laravel",
+    "name": "baclv-list-user/sample",
+    "description": "this is first package list user for laravel",
     "type": "library",
     "license": "MIT",
     "authors": [
@@ -11,14 +11,14 @@
     ],
 	"autoload": {
         "psr-4": {
-            "BacLV\\Simple\\": "vendor/baclv-admin/sample/src"
+            "BacLV\\Sample\\": "vendor/baclv-list-user/sample/src"
         }
     },
     "minimum-stability": "dev",
 	"extra": {
         "laravel": {
             "providers": [
-				"BacLV\\Simple\\SimpleServiceProvider"
+				"BacLV\\Sample\\UserServiceProvider"
             ]
         }
     },

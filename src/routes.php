@@ -1,9 +1,8 @@
 <?php
-Route::get('sample-admin-users', 'BacLV\Simple\SimpleController@index');
-Route::get('hello', function(){
+Route::get('list-user', 'BacLV\Sample\UsersController@index');
+Route::get('hello-user', function(){
     echo 'Hello from the calculator package!';
 });
-Route::get('test-auth', function(){
+Route::get('test-auth-user', function(){
     echo 'Kiểm tra đăng nhập!';
 })->middleware('auth');
-
