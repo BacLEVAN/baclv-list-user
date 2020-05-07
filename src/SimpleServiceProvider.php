@@ -1,6 +1,5 @@
 <?php
 
-
 namespace BacLV\Simple;
 
 use Illuminate\Support\ServiceProvider;

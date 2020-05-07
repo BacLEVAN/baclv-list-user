@@ -1,5 +1,5 @@
 {
-    "name": "baclv-admin",
+    "name": "baclv-admin/sample",
     "description": "this is first package admin for laravel",
     "type": "library",
     "license": "MIT",
